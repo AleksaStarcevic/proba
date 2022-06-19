@@ -1,6 +1,8 @@
-package validator;
+package concrete_component;
 
-public class NameValidator implements Validate{
+import validator.Validate;
+
+public class NameValidator implements Validate {
 
     private String value;
 
@@ -10,7 +12,10 @@ public class NameValidator implements Validate{
 
     @Override
     public String validate() {
-       return value;
+        return  value;
     }
+
+
+
 
 }
